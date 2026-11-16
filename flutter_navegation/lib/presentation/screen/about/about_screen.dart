@@ -18,12 +18,12 @@ class AboutScreen extends StatelessWidget {
               ),
               const SizedBox(height: 16),
               Text(
-                'Miguel Caro Orozco',
+                'Miguel Jesus Caro Orozco',
                 style: Theme.of(context).textTheme.headlineSmall,
               ),
               const SizedBox(height: 8),
               const Text(
-                'Estudiante de Desarrollo de Aplicaciones Móviles',
+                'Estudiante de La "universidad de alta calidad" tecnar',
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 24),
@@ -34,12 +34,12 @@ class AboutScreen extends StatelessWidget {
                     children: [
                       ListTile(
                         leading: Icon(Icons.school_outlined),
-                        title: Text('Programa'),
+                        title: Text('Materia'),
                         subtitle: Text('Desarrollo de aplicaciones móviles'),
                       ),
                       ListTile(
                         leading: Icon(Icons.code),
-                        title: Text('Tecnología'),
+                        title: Text('Lenguaje de programación'),
                         subtitle: Text('Flutter y Dart'),
                       ),
                     ],
